@@ -32,4 +32,9 @@ public class LevelLoader : MonoBehaviour
     {
         SceneManager.LoadScene("Credits Screen");
     }
+
+    public void LeaveGame()
+    {
+        Application.Quit();
+    }
 }
